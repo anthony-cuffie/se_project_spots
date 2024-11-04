@@ -1,0 +1,119 @@
+.profile {
+  display: flex;
+  padding: 34px 0 20px;
+  border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
+  max-height: 210px;
+}
+
+.profile__avatar {
+  margin-right: 20px;
+
+  border-radius: 20px;
+}
+
+.profile__column {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+}
+
+.profile__name {
+  margin: 0 0 12px;
+  max-width: 420px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.profile__description {
+  margin: 0;
+  max-width: 420px;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.profile__edit-button {
+  margin-top: auto;
+  display: flex;
+  gap: 8px;
+  opacity: 0.7;
+  width: 107.34px;
+  border-style: none;
+  background: #fcf5e5;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  align-items: center;
+  padding: 0;
+}
+.profile__add-button {
+  margin-left: auto;
+  margin-top: auto;
+
+  height: 52px;
+  border-radius: 8px;
+  background: #212121;
+  color: #fcf5e5;
+  gap: 8px;
+  display: flex;
+  border: none;
+  padding: 18px 32px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 627px) {
+  .profile {
+    flex-direction: column;
+    width: 288px;
+    max-height: 274px;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .profile__avatar {
+    margin-right: 0;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 12px;
+  }
+
+  .profile__column {
+    margin-bottom: 20px;
+  }
+
+  .profile__name {
+    margin-bottom: 6px;
+    font-size: 20px;
+    max-width: 288px;
+    height: 20px;
+  }
+
+  .profile__description {
+    margin-bottom: 32px;
+    max-width: 288px;
+  }
+
+  .profile__edit-button {
+    align-self: center;
+  }
+
+  .profile__add-button {
+    width: 100%;
+    height: 52px;
+    justify-content: center;
+  }
+}
