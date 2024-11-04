@@ -10,8 +10,6 @@ The site employs various display methods, including flex and grid. It features a
 
 This coursework was an introduction to Figma, a website that allows webpage designers to visually communicate to webpage developers the basic specs and desired elements of a website.
 
-- [Link to Figma](www.figma.com)
-
 ## Technology
 
 - Html
