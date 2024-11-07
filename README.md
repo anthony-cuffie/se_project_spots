@@ -22,4 +22,8 @@ This coursework was an introduction to Figma, a website that allows webpage desi
 
 * [Deployment link](https://anthony-cuffie.github.io/se_project_spots/)
 
+## Presentation
+
+- [Presentation link](https://drive.google.com/file/d/1P5jMPmr5ZNiNlSigd3yXN6k3X34aKZW6/view?usp=drive_link)
+
 Have fun sharing your photos!
